@@ -7,40 +7,40 @@
 [![bitHound Score](https://www.bithound.io/github/gotwarlost/istanbul/badges/score.svg)](https://www.bithound.io/github/polutz/ptz-fp)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-## Translations
+## Traduções
 [pt-br](https://github.com/polutz/ptz-fp/blob/master/README.pt-br.md)
 [en-us](https://github.com/polutz/ptz-fp/blob/master/README.md)
 
-ptz-fp is a Polutz module.
+ptz-fp é um módulo Polutz.
 
 
-## Use
+## Como usar
 
-### Install
+### Instalação
 ```
     npm install --save ptz-fp
 ```
 
-### How to use
+### Como usar
 ```
     import  from ptz-fp;
 
 ```
 
 
-## Contribute
+## Contribuir com o projeto
 
 ### NPM Global packages
 ```
     npm install -g ts-node babel-cli
 ```
 
-### Setup
+### Instalação
 ```
     npm install   
 ```
 
-### Test
+### Teste
 ```
     npm test
 ```
