@@ -16,17 +16,13 @@ ptz-fp é um módulo Polutz.
 
 ## Como usar
 
+## Docs
+[Full docs](https://polutz.github.io/ptz-fp/)
+
 ### Instalação
 ```
     npm install --save ptz-fp
 ```
-
-### Como usar
-```
-    import  from ptz-fp;
-
-```
-
 
 ## Contribuir com o projeto
 

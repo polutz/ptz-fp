@@ -11,22 +11,18 @@
 [pt-br](https://github.com/polutz/ptz-fp/blob/master/README.pt-br.md)
 [en-us](https://github.com/polutz/ptz-fp/blob/master/README.md)
 
-ptz-fp is a Polutz module.
+ptz-fp is a complement to ramda functions.
 
 
 ## Use
+
+## Docs
+[Full docs](https://polutz.github.io/ptz-fp/)
 
 ### Install
 ```
     npm install --save ptz-fp
 ```
-
-### How to use
-```
-    import  from ptz-fp;
-
-```
-
 
 ## Contribute
 
