@@ -25,22 +25,5 @@ describe('isNilOrEmpty', function () {
         (0, _ptzAssert.notOk)(P.isNilOrEmpty('a'));
     });
 });
-describe('isNotNilOrEmpty', function () {
-    it('false for null', function () {
-        (0, _ptzAssert.notOk)(P.isNotNilOrEmpty(null));
-    });
-    it('false for undefined', function () {
-        (0, _ptzAssert.notOk)(P.isNotNilOrEmpty(undefined));
-    });
-    it('false for empty', function () {
-        (0, _ptzAssert.notOk)(P.isNotNilOrEmpty([]));
-    });
-    it('true for NOT empty', function () {
-        (0, _ptzAssert.ok)(P.isNotNilOrEmpty([1]));
-    });
-    it('true for NOT empty string', function () {
-        (0, _ptzAssert.ok)(P.isNotNilOrEmpty('a'));
-    });
-});
 //# sourceMappingURL=isNilOrEmpty.test.js.map
 //# sourceMappingURL=isNilOrEmpty.test.js.map

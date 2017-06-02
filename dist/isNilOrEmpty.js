@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.isNotNilOrEmpty = exports.isNilOrEmpty = undefined;
+exports.isNilOrEmpty = undefined;
 
 var _ramda = require('ramda');
 
@@ -16,9 +16,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * @param {string|*[]} value
  */
 var isNilOrEmpty = exports.isNilOrEmpty = _ramda2.default.anyPass([_ramda2.default.isNil, _ramda2.default.isEmpty]);
-/**
- * Checks if an array is or string Is NOT null or Empty.
- */
-var isNotNilOrEmpty = exports.isNotNilOrEmpty = _ramda2.default.compose(_ramda2.default.not, isNilOrEmpty);
 //# sourceMappingURL=isNilOrEmpty.js.map
 //# sourceMappingURL=isNilOrEmpty.js.map
