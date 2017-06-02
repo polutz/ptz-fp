@@ -2,6 +2,6 @@
 
 
 
-## 1.0.0 (March 30, 2017)
+## 1.0.0 (June 2, 2017)
 
-* Initial public release.
+* Add isNilOrEmpty.
