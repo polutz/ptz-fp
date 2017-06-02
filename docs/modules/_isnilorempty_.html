@@ -72,6 +72,7 @@
 							<h3>Variables</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_isnilorempty_.html#isnilorempty" class="tsd-kind-icon">is<wbr>Nil<wbr>OrEmpty</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_isnilorempty_.html#isnotnilorempty" class="tsd-kind-icon">is<wbr>Not<wbr>Nil<wbr>OrEmpty</a></li>
 							</ul>
 						</section>
 					</div>
@@ -82,10 +83,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
 					<a name="isnilorempty" class="tsd-anchor"></a>
 					<h3>is<wbr>Nil<wbr>OrEmpty</h3>
-					<div class="tsd-signature tsd-kind-icon">is<wbr>Nil<wbr>OrEmpty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Pred</span><span class="tsd-signature-symbol"> =&nbsp;anyPass([isNil, isEmpty])</span></div>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Nil<wbr>OrEmpty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Pred</span><span class="tsd-signature-symbol"> =&nbsp;R.anyPass([R.isNil, R.isEmpty])</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/polutz/ptz-fp/blob/a66b551/src/isNilOrEmpty.ts#L7">isNilOrEmpty.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/polutz/ptz-fp/blob/7abd7f2/src/isNilOrEmpty.ts#L7">isNilOrEmpty.ts:7</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -96,6 +97,42 @@
 							<dt>param</dt>
 							<dd></dd>
 						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+					<a name="isnotnilorempty" class="tsd-anchor"></a>
+					<h3>is<wbr>Not<wbr>Nil<wbr>OrEmpty</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Not<wbr>Nil<wbr>OrEmpty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span><span class="tsd-signature-symbol"> =&nbsp;R.compose(R.not, isNilOrEmpty)</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/polutz/ptz-fp/blob/7abd7f2/src/isNilOrEmpty.ts#L12">isNilOrEmpty.ts:12</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Checks if an array is or string Is NOT null or Empty.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-siganture">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-is-not-exported">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>x0<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V0</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T2</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>x0: <span class="tsd-signature-type">V0</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T2</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</div>
 				</section>
 			</section>
@@ -118,6 +155,9 @@
 				<ul class="before-current">
 					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 						<a href="_isnilorempty_.html#isnilorempty" class="tsd-kind-icon">is<wbr>Nil<wbr>OrEmpty</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+						<a href="_isnilorempty_.html#isnotnilorempty" class="tsd-kind-icon">is<wbr>Not<wbr>Nil<wbr>OrEmpty</a>
 					</li>
 				</ul>
 			</nav>
