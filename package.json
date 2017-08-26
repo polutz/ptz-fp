@@ -1,6 +1,6 @@
 {
   "name": "ptz-fp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ptz-fp is a complement to ramda functions.",
   "main": "dist/index.js",
   "typings": "src/index.ts",
