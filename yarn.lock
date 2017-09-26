@@ -2253,6 +2253,12 @@ ptz-log@^1.0.0:
   dependencies:
     moment "^2.18.1"
 
+ptz-log@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/ptz-log/-/ptz-log-1.2.2.tgz#c248db4042fd91c58da6171d22c5d19017a6aae4"
+  dependencies:
+    moment "^2.18.1"
+
 punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"

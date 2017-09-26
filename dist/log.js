@@ -1,8 +1,12 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.log = undefined;
+
+var _ptzLog = require('ptz-log');
+
 /**
  * run console.log() and return the same obj
  * @param  {any} o any object
@@ -14,9 +18,7 @@ var log = exports.log = function log() {
   }
 
   return function (obj) {
-    var _console;
-
-    (_console = console).log.apply(_console, args.concat([obj]));
+    _ptzLog.log.apply(undefined, args.concat([obj]));
     return obj;
   };
 };

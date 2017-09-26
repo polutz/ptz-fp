@@ -7,10 +7,15 @@ describe('log', () => {
     const a = (x) => x;
     const b = (x) => x;
     const pipe = R.pipe(a,
-      P.log('after a'),
+      P.log({ ptzLogColor: 'blue' },
+        'after a'),
       b,
-      P.log('after b'));
-    const obj = { a: 'test' };
+      P.log({ ptzLogColor: 'red' }, 'after b'));
+    const obj = {
+      a: {
+        b: 'teste'
+      }
+    };
     const loggedObj = pipe(obj);
     equal(obj, loggedObj);
   });

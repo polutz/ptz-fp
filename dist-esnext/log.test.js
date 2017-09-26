@@ -5,8 +5,12 @@ describe('log', () => {
     it('return same obj', () => {
         const a = (x) => x;
         const b = (x) => x;
-        const pipe = R.pipe(a, P.log('after a'), b, P.log('after b'));
-        const obj = { a: 'test' };
+        const pipe = R.pipe(a, P.log({ ptzLogColor: 'blue' }, 'after a'), b, P.log({ ptzLogColor: 'red' }, 'after b'));
+        const obj = {
+            a: {
+                b: 'teste'
+            }
+        };
         const loggedObj = pipe(obj);
         equal(obj, loggedObj);
     });

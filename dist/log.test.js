@@ -22,8 +22,12 @@ describe('log', function () {
         var b = function b(x) {
             return x;
         };
-        var pipe = _ramda2.default.pipe(a, P.log('after a'), b, P.log('after b'));
-        var obj = { a: 'test' };
+        var pipe = _ramda2.default.pipe(a, P.log({ ptzLogColor: 'blue' }, 'after a'), b, P.log({ ptzLogColor: 'red' }, 'after b'));
+        var obj = {
+            a: {
+                b: 'teste'
+            }
+        };
         var loggedObj = pipe(obj);
         (0, _ptzAssert.equal)(obj, loggedObj);
     });
